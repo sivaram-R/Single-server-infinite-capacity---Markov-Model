@@ -12,26 +12,13 @@ Queuing are the most frequently encountered problems in everyday life. For examp
 
 This is a queuing model in which the arrival is Marcovian and departure distribution is also Marcovian,number of server is one and size of the queue is also Marcovian,no.of server is one and size of the queue is infinite and service discipline is 1st come 1st serve(FCFS) and the calling source is also finite.
 
-
-
-
 ## Procedure :
 
 ![imAGE](2.png)
-
-
 ## EXPERIMENT:
-
 ![image](https://github.com/JAYAVARTHAN-P/Single-server-infinite-capacity---Markov-Model/assets/121369281/19de0506-63e6-45b8-93f1-bd5bc9e2728c)
-
-
- 
 ## Program
-
-## DEVELOPED BY: Sivaram R
-## REG NO: 212222100050
 ```
-
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
 Robot_time=float(input("Enter the Additional time taken for the Robot (in secs) :  "))
@@ -56,14 +43,8 @@ if (lam <  mu):
 else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("---------------------------------------------------------------")
-
-
 ```
-
 ## Output :
 ![PROB 4](https://github.com/JAYAVARTHAN-P/Single-server-infinite-capacity---Markov-Model/assets/121369281/66b26c27-989f-40c9-b0bc-d4dab3c15400)
-
 ## Result :
-
 The average number of material in the system and in the conveyor and waiting time are successfully found.
-
